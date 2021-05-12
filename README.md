@@ -13,11 +13,11 @@ Installation Instructions:
 Clone this repository into a folder using git
 
 Then run the following commands, just using the defaults in npm init is fine:
-
+```
 npm init
 npm install --save @hashgraph/sdk
 npm install --save dotenv
-
+```
 Next you need to create a .env file in your folder with the following lines:
 
 Sample .env
