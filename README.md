@@ -1,14 +1,14 @@
 # hashgraph-bootstrap
 
-Summary:
+####Summary:
 
 A barebones javascript project to get you connected to the Testnet using the Hedera API as fast and painlessly as possible.
 
-Requirements:
+####Requirements:
 
 Node and NPM
 
-Installation Instructions:
+####Installation Instructions:
 
 Clone this repository into a folder using git
 
