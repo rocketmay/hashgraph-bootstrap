@@ -20,7 +20,7 @@ npm install --save dotenv
 ```
 Next you need to create a .env file in your folder with the following lines:
 
-__ ./.env _____________________________
+__ file: .env _____________________________
 ```
 # Hedera Operator
 # Used to pay for transaction fees for integration tests
