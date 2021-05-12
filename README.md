@@ -47,7 +47,10 @@ Now just run
 node ./main.js
 
 And you should see it connect to the Testnet and get an account balance!
-
+```
+Attempting to get token info from the Hedera API...
+The token balance(s) for this account: {"0.0.574366":"999000"}
+```
 
 # ISSUES
 
