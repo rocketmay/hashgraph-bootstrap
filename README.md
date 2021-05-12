@@ -47,3 +47,19 @@ Now just run
 node ./main.js
 
 And you should see it connect to the Testnet and get an account balance!
+
+
+# ISSUES
+
+May 12, 2021: There seems to have been an update to @hashgraph/proto between version 1.0.25 and 1.1.0 that causes the following error:
+```(node:36840) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'encode' of undefined```
+
+Until this gets fixed, you can use the previous version by doing the following steps:
+```
+Delete the folder 'node_modules' and delete package-lock.json
+Rename package-lock-fix.json to 'package-lock.json'
+Run the command:  npm ci
+```
+
+now 'node ./main.js' should work.
+
