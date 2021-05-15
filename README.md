@@ -50,17 +50,3 @@ Attempting to get token info from the Hedera API...
 The token balance(s) for this account: {"0.0.574366":"999000"}
 ```
 
-# ISSUES
-
-May 12, 2021: There seems to have been an update to @hashgraph/proto between version 1.0.25 and 1.1.0 that causes the following error:
-```(node:36840) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'encode' of undefined```
-
-Until this gets fixed, you can use the previous version by doing the following steps:
-```
-Delete the folder 'node_modules' and delete package-lock.json
-Rename package-lock-fix.json to 'package-lock.json'
-Run the command:  npm ci
-```
-
-now 'node ./main.js' should work.
-
