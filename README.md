@@ -22,9 +22,6 @@ Specifically for this bootstrap you will just need to learn how to change direct
 
 5. Now you can use the 'cd' command to navigate to the hashgraph-bootstrap/ folder and continue with the instructions below!
 
-#### Requirements:
-
-Node and NPM
 
 #### Installation Instructions:
 
