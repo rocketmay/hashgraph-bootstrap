@@ -4,7 +4,7 @@
 
 A barebones javascript project to get you connected to the Testnet using the Hedera API as fast and painlessly as possible.
 
-#### First Steps:
+#### First Steps for Complete Beginners:
 
 For complete beginners who just want to get into the code and try messing around, here are a few steps to help get you started. These instructions are for windows users. If a mac user can help me out with a step-by-step I'd be grateful.
 
