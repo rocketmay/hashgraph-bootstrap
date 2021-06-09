@@ -27,9 +27,10 @@ Specifically for this bootstrap you will just need to learn how to change direct
 
 Clone this repository into a folder using git
 
-Then run the following commands, which will install the dependencies for the hashgraph SDK in the hashgraph-bootstrap folder. (Make sure you changed directory in the terminal to the folder, per the steps above). Just using the defaults in npm init is fine:
+Then run the following commands, which will install the dependencies for the hashgraph SDK in the hashgraph-bootstrap folder. (Make sure you changed directory in the terminal to the folder, per the steps above).
 ```
 npm init
+  (follow the prompts to enter project information. Using the defaults is fine)
 npm install --save @hashgraph/sdk
 npm install --save dotenv
 ```
