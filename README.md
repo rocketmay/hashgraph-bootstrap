@@ -15,7 +15,7 @@ Github Desktop will let you download and manage this repository. Github reposito
 
 Windows Terminal is the command line interface. It lets you type in commands to do things. A basic command list is here: https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
 
-Specifically for this bootstrap you will just need to learn how to change directories, the "CD" command. All you need to do is type "cd <folder path>" to go to the directory of the project. For example, "cd C:\PROJECTS\hashgraph-bootstrap"
+Specifically for this bootstrap you will just need to learn how to change directories, the "CD" command. All you need to do is type "cd <folder path>" to go to the directory of the project. For example, "cd C:\PROJECTS\hashgraph-bootstrap" . If your directory is on a different drive, add a \d to change the drive and directory at the same time: "cd /d D:\PROJECTS\hashgraph-boostrap"
 
 3. Clone the repository onto your computer. Basically this makes a copy of the files on your computer. Click the big green button that says "Code" in the top right of this page and select "Open in Github Desktop". This will launch Github desktop, let you choose a folder path for your files, and then clone it.
 4. You will now need to install Node, which is a package manager that helps you to download the code requirements for the project. You can find it here: https://nodejs.org/en/download/
